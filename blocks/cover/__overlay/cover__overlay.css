@@ -1,9 +1,16 @@
 .cover__overlay {
-  border: 1px solid red;
   position: absolute;
+  background: #2a2c2f;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  z-index: 10;
 }
 
 .cover__overlay:hover {
-  background: #2a2c2f;
   opacity: 0.3;
 }

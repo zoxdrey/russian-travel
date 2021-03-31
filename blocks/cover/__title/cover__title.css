@@ -5,4 +5,16 @@
   font-size: 32px;
   line-height: 1.09;
   text-align: center;
+  max-width: 288px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 1.06;
+    max-width: 560px;
+    margin-bottom: 32px;
+  }
 }
