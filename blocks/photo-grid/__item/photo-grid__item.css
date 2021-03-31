@@ -1,11 +1,4 @@
 .photo-grid__item {
-  display: block;
-  width: 288px;
-  height: 216px;
-  object-fit: cover;
-  margin: 0 16px 12px 16px;
-}
-
-.photo-grid__item:last-child {
-  margin: 0 16px 0px 16px;
+  object-fit: fill;
+  width: 100%;
 }
