@@ -3,11 +3,6 @@
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
-  line-height: 35px;
-  /* or 109% */
-  position: absolute;
+  line-height: 1.09;
   text-align: center;
-  margin: 0;
-  top: 33px;
-  margin: 0 16px;
 }
