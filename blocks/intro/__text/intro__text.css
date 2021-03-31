@@ -1,10 +1,16 @@
 .intro__text {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.63;
-  /* or 26px */
-  margin: 0 16px;
+  margin: 0;
   color: #ffffff;
+  max-width: 690px;
+}
+
+@media (min-width: 1080) {
+  .intro__text {
+    font-size: 18px;
+  }
 }

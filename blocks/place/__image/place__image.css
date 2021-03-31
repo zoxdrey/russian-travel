@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-@media (max-width: 328px) {
+@media (max-width: 768px) {
   .place__image {
     margin: 32px 0;
   }
