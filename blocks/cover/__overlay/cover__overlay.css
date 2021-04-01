@@ -8,7 +8,6 @@
   bottom: 0;
   right: 0;
   content: "";
-  z-index: 10;
 }
 
 .cover__overlay:hover {
