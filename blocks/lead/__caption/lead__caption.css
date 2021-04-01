@@ -10,3 +10,9 @@
   text-transform: uppercase;
   align-self: flex-start;
 }
+
+@media (min-width: 1024px) {
+  .lead__caption {
+    margin-left: 0;
+  }
+}
