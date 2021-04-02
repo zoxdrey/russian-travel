@@ -18,6 +18,12 @@
   opacity: 0.8;
 }
 
+@media (min-width: 360px) {
+  .footer__link:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
 @media (min-width: 768px) {
   .footer__link {
     font-size: 16px;
