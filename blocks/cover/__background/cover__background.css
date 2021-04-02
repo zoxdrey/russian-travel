@@ -6,6 +6,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  min-height: 200px;
+}
+
+@media (min-width: 465px) {
+  .cover__background {
+    min-height: 340px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+@media (min-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+@media (min-width: 1280px) {
+  .cover__background {
+    min-height: 740px;
+    margin: 0 48px;
+  }
 }
